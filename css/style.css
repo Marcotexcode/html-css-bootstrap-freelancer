@@ -123,6 +123,16 @@ nav {
     background-color: #3a546d;
 }
 
+
+.foot_bottom_top div {
+    text-align: center;
+}
+
+.box_foot {
+    height: 200px;
+    background-color: pink;
+}
+
 .foot_bottom_bottom {
     background-color: #2c3e50;
 }
@@ -163,15 +173,11 @@ nav {
 
 
 
-.default .foot_top{
-    height: 300px;
-}
 
 
 
-.default .foot_bottom_top  {
-    height: 300px;
-}
+
+
 
 .default .foot_bottom_bottom  {
     height: 90px;
