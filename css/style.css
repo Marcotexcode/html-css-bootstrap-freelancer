@@ -7,7 +7,19 @@
     color: white;
 }
 
+.linee_black {
+    width: 20%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+}
 
+.linee_white {
+    width: 20%;
+    height: 3px;
+    border-radius: 10px;
+    background-color: white;
+}
 
 
 
@@ -29,6 +41,7 @@ nav {
 
 ._jumbotron {
     background-color: #1abc9c;
+    color: white;
 }
 
 ._jumbotron div {
@@ -38,12 +51,7 @@ nav {
 ._jumbotron div img {
     width: 40%;
 }
-._jumbotron div hr {
-    width: 20%;
-    height: 3px;
-    background-color: white;
-    color: white;
-}
+
 
 
 
@@ -56,13 +64,6 @@ nav {
     text-align: center;
 }
 
-.sez_top div hr {
-    width: 20%;
-    height: 3px;
-    background-color: black;
-    color: black;
-}
-
 
 
 
@@ -70,50 +71,34 @@ nav {
 /*********** SEZIONE BOTTOM ***********/
 .sez_bottom {
     background-color: #1abc9c;
-}
-
-.sez_bottom {
-  
+    color: white;
 }
 
 .box {
     height: 200px;
+    border-radius: 20px;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 20px;
 }
 
 .sez_bottom div {
     text-align: center;
 }
 
-.sez_bottom div hr {
-    width: 20%;
-    height: 3px;
-    background-color: black;
-    color: black;
-}
-
 
 
 /*********** FOOTER TOP ***********/
-.foot_top {
-
-}
 
 
-.foot_top div {
+.foot_top h1 {
     text-align: center;
 }
 
-.foot_top div hr {
-    width: 20%;
-    height: 3px;
-    background-color: black;
-    color: black;
-}
 
-.tex {
-    background-color: blue;
-    height: 200px;
-}
+
 
 
 
@@ -121,6 +106,7 @@ nav {
 /*********** FOOTER BOTTOM ***********/
 .foot_bottom_top {
     background-color: #3a546d;
+    color: white;
 }
 
 
@@ -129,17 +115,41 @@ nav {
 }
 
 .box_foot {
-    height: 200px;
-    background-color: pink;
+ 
+}
+
+.box_foot i {
+    font-size: 30px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50px;
+    padding: 10px;
 }
 
 .foot_bottom_bottom {
     background-color: #2c3e50;
+    color: white;
+
 }
 
-.form {
-    background-color: greenyellow;
-    height: 200px;
+
+.form input {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.form textarea {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.btn_color {
+    background-color: #1abc9c;
+    border:  none;
 }
 
 
@@ -166,9 +176,6 @@ nav {
 } */
 
 
-.default .box {
-    background-color: red;
-}
 
 
 
@@ -179,6 +186,3 @@ nav {
 
 
 
-.default .foot_bottom_bottom  {
-    height: 90px;
-}
