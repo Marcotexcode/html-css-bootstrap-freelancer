@@ -76,6 +76,10 @@ nav {
   
 }
 
+.box {
+    height: 200px;
+}
+
 .sez_bottom div {
     text-align: center;
 }
@@ -95,6 +99,24 @@ nav {
 }
 
 
+.foot_top div {
+    text-align: center;
+}
+
+.foot_top div hr {
+    width: 20%;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
+.tex {
+    background-color: blue;
+    height: 200px;
+}
+
+
+
 
 /*********** FOOTER BOTTOM ***********/
 .foot_bottom_top {
@@ -104,6 +126,13 @@ nav {
 .foot_bottom_bottom {
     background-color: #2c3e50;
 }
+
+.form {
+    background-color: greenyellow;
+    height: 200px;
+}
+
+
 
 
 
@@ -122,11 +151,13 @@ nav {
     border: 1px solid #000;
 }
 
+.default .foot_top div {
+    border: 1px solid #000;
+}
 
 
 .default .box {
     background-color: red;
-    height: 200px;
 }
 
 
