@@ -31,7 +31,20 @@ nav {
     background-color: #1abc9c;
 }
 
+._jumbotron div {
+    border: 1px solid #000;
+    text-align: center;
+}
 
+._jumbotron div img {
+    width: 40%;
+}
+._jumbotron div hr {
+    width: 40%;
+}
+._jumbotron div i {
+ 
+}
 
 /*********** SEZIONE TOP ***********/
 .sez_top {
@@ -70,7 +83,7 @@ nav {
 
 
 .default ._jumbotron {
-    height: 300px;
+
 }
 
 .default .sez_top {
