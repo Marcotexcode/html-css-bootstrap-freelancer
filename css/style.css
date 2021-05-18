@@ -40,16 +40,30 @@ nav {
     width: 40%;
 }
 ._jumbotron div hr {
-    width: 40%;
+    width: 20%;
+    height: 3px;
+    background-color: white;
+    color: white;
 }
-._jumbotron div i {
- 
-}
+
+
 
 /*********** SEZIONE TOP ***********/
 .sez_top {
-
+  
 }
+
+.sez_top div {
+    text-align: center;
+}
+
+.sez_top div hr {
+    width: 20%;
+    height: 3px;
+    background-color: black;
+    color: black;
+}
+
 
 
 
@@ -82,12 +96,15 @@ nav {
 /*********** DEFAULT ***********/
 
 
-.default ._jumbotron {
-
+.default .sez_top div {
+    border: 1px solid #000;
 }
 
-.default .sez_top {
-    height: 300px;
+
+
+.default .box {
+    background-color: red;
+    height: 100px;
 }
 
 
