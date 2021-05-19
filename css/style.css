@@ -97,9 +97,6 @@ header {
     opacity: 0.5;
 }
 
-.p_relatve {
-    position: relative;
-}
 
 .box img:active{
     z-index: 5;
@@ -162,6 +159,10 @@ header {
     border-top: none;
     border-left: none;
     border-right: none;
+}
+
+.form input:active {
+    border: none;
 }
 
 .form textarea {
