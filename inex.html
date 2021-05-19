@@ -12,252 +12,283 @@
 </head>
 <body class="default">
 
-    <!----------- INIZIO CONTENITORE GENERALE ---------->
-    <div class="container-fluid">
+    
 
-        <!----------- INIZIO NAVBAR ---------->
-        <div class="row">
-            <nav class="navbar d-flex justify-content-sm-between justify-content-md-around">
-                <a class="navbar-brand c_white fs-3" href="#">START BOOTSTRAP</a>
-                <button class="d-md-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <ul class="d-none d-md-flex flex-row navbar-nav">
-                    <li class="mx-3"><a class="nav-link c_white" href="#">PORTFOLIO</a></li>
-                    <li class="mx-3"><a class="nav-link c_white" href="#">ABOUT</a></li>
-                    <li class="mx-3"><a class="nav-link c_white" href="#">CONTACT</a></li>
+    <!----------- INIZIO NAVBAR ---------->
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container text-uppercase">
+            <a class="navbar-brand fs-3" href="#">Start bootstrap</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
                 </ul>
-            </nav>
+            </div>
+            </div>
+        </nav>
+    </header>     
+    <!----------- FINE NAVBAR ---------->
+   
+
+
+    <!----------- INIZIO JUMBOTRON ---------->
+        <div class="_jumbotron pt_10">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-12 col-lg-8">
+                        <img src="img/avatar.svg" alt="avatar">
+                        <h1>START BOOTSTRAP</h1>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="linee_white"></div>
+                            <i class="bi bi-star-fill mx-3"></i>
+                            <div class="linee_white"></div>
+                        </div>
+                        <p class="py-3">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!----------- FINE NAVBAR ---------->
         
+    <!----------- FINE JUMBOTRON ---------->
 
 
 
-        <!----------- INIZIO JUMBOTRON ---------->
-        <div class="row _jumbotron justify-content-center">
-            <div class="col-lg-8 col-sm-12">
-                <img src="img/avatar.svg" alt="avatar">
-                <h1>START BOOTSTRAP</h1>
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="linee_white"></div>
-                    <i class="bi bi-star-fill mx-3"></i>
-                    <div class="linee_white"></div>
+
+
+    <!----------- INIZIO CORPO ---------->
+    <main>
+
+
+    <!----------- INIZIO SEZIONE TOP ---------->
+    <section class="sez_top ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-11">
+                    <h1 class="pt-3">PORTFOLIO</h1>
+                    <div class=" d-flex justify-content-center align-items-center">
+                        <div class="linee_black"></div>
+                        <i class="bi bi-star-fill mx-3"></i>
+                        <div class="linee_black"></div>
+                    </div>
+
+                    
+                        <div class="row p-5 ">
+                            <div class=" col-md-6 col-lg-4  ">
+                                <div class=" col box box1 m-2">
+                                    <img src="img/cabin.png" alt="">
+                                </div>
+                            </div>
+                            <div class="  col-md-6 col-lg-4  ">
+                                <div class=" col box box2 m-2">
+                                    <img src="img/cake.png" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class="  col-md-6 col-lg-4  ">
+                                <div class=" col box box3 m-2">
+                                    <img src="img/circus.png" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class="  col-md-6 col-lg-4  ">
+                                <div class=" col box box4 m-2">
+                                    <img src="img/game.png" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class="  col-md-6 col-lg-4  ">
+                                <div class=" col box box5 m-2">
+                                    <img src="img/safe.png" alt="">
+                                    
+                                </div>
+                            </div>
+                            <div class="  col-md-6 col-lg-4  ">
+                                <div class=" col box box6 m-2">
+                                    <img src="img/submarine.png" alt="">
+                                    
+                                </div>
+                            </div>
+                        </div> 
+                                    
                 </div>
-                <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+            </div>
+        </div>    
+        
+    </section>
+    <!----------- FINE SEZIONE TOP ---------->
+
+
+
+
+
+
+    <!----------- INIZIO SEZIONE BOTTOM ---------->
+    <section class="sez_bottom ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <h1 class="pt-3">ABOUT</h1>
+                    <div class="d-flex justify-content-center align-items-center">
+                        <div class="linee_white"></div>
+                        <i class="star_black bi bi-star-fill mx-3"></i>
+                        <div class="linee_white"></div>
+                    </div>
+
+                    <div class="row p-4">
+                        <div class="col-12 col-md-6">
+                            <div class="col tex m-2">
+                                <p class="text-start">Freelancer is a free botstrap theme created by Start Bootstrap. The download includes the complete source fiels including HTML, CSS, and JavaScript as well as optional LESS stylesheets for esay customization.</p>
+                            </div>
+                        </div>
+                        <div class=" col-12 col-md-6">
+                            <div class="col tex m-2">
+                                <p class="text-start">Whether you're a student looking to showcase your work, a professional looking to arract clients, or a graphic srtist lookinng to share your projects, this template is the perfect starting point!</p>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="button" class="btn btn-outline-light"><i class="bi bi-download"></i> Download</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!----------- FINE JUMBOTRON ---------->
+    </section>
+    <!----------- FINE SEZIONE TOP ---------->
+
+
+
+    </main>
+    <!----------- FINE CORPO ---------->
 
 
 
 
 
-        <!----------- INIZIO CORPO ---------->
-        <main>
 
 
-        <!----------- INIZIO SEZIONE TOP ---------->
-        <section class="row sez_top justify-content-center">
-            <div class="col-lg-8">
-                <h1>PORTFOLIO</h1>
-                <div class=" d-flex justify-content-center align-items-center">
-                    <div class="linee_black"></div>
-                    <i class="bi bi-star-fill mx-3"></i>
-                    <div class="linee_black"></div>
-                </div>
-
-
-                <div class="row ">
-                    <div class="  col-md-6 col-lg-4  ">
-                        <div class=" col box box1 m-2">
-                            <img src="img/cabin.png" alt="">
-                        </div>
+    <!----------- INIZIO FOOTER ---------->
+    <footer>
+    <!----------- INIZIO FOOTER TOP ---------->
+    <section class=" foot_top ">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <h1 class="pt-3">CONTACT ME</h1>
+                    <div class=" d-flex justify-content-center align-items-center p-3">
+                        <div class="linee_black"></div>
+                        <i class="bi bi-star-fill mx-3"></i>
+                        <div class="linee_black"></div>
                     </div>
-                    <div class="  col-md-6 col-lg-4  ">
-                        <div class=" col box box2 m-2">
-                            <img src="img/cake.png" alt="">
-                            
-                        </div>
-                    </div>
-                    <div class="  col-md-6 col-lg-4  ">
-                        <div class=" col box box3 m-2">
-                            <img src="img/circus.png" alt="">
-                            
-                        </div>
-                    </div>
-                    <div class="  col-md-6 col-lg-4  ">
-                        <div class=" col box box4 m-2">
-                            <img src="img/game.png" alt="">
-                            
-                        </div>
-                    </div>
-                    <div class="  col-md-6 col-lg-4  ">
-                        <div class=" col box box5 m-2">
-                            <img src="img/safe.png" alt="">
-                            
-                        </div>
-                    </div>
-                    <div class="  col-md-6 col-lg-4  ">
-                        <div class=" col box box6 m-2">
-                            <img src="img/submarine.png" alt="">
-                            
-                        </div>
-                    </div>
-                </div>
 
-            </div>
-           
-            
-        </section>
-        <!----------- FINE SEZIONE TOP ---------->
-
-
-
-
-
-
-        <!----------- INIZIO SEZIONE BOTTOM ---------->
-        <section class="row sez_bottom justify-content-center">
-
-            <div class="col-8">
-                <h1>ABOUT</h1>
-                <div class="d-flex justify-content-center align-items-center">
-                    <div class="linee_white"></div>
-                    <i class="star_black bi bi-star-fill mx-3"></i>
-                    <div class="linee_white"></div>
-                </div>
-
-                <div class="row ">
-                    <div class="col-12 col-md-6">
-                        <div class="col tex m-2">
-                            <p class="text-start">Freelancer is a free botstrap theme created by Start Bootstrap. The download includes the complete source fiels including HTML, CSS, and JavaScript as well as optional LESS stylesheets for esay customization.</p>
-                        </div>
-                    </div>
-                    <div class=" col-12 col-md-6">
-                        <div class="col tex m-2">
-                            <p class="text-start">Whether you're a student looking to showcase your work, a professional looking to arract clients, or a graphic srtist lookinng to share your projects, this template is the perfect starting point!</p>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <button type="button" class="btn btn-outline-light"><i class="bi bi-download"></i> Download</button>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!----------- FINE SEZIONE TOP ---------->
-
-
-
-        </main>
-        <!----------- FINE CORPO ---------->
-
-
-
-
-
-
-
-        <!----------- INIZIO FOOTER ---------->
-        <footer>
-        <!----------- INIZIO FOOTER TOP ---------->
-        <section class="row foot_top justify-content-center">
-
-            <div class="col-8">
-                <h1>CONTACT ME</h1>
-                <div class=" d-flex justify-content-center align-items-center">
-                    <div class="linee_black"></div>
-                    <i class="bi bi-star-fill mx-3"></i>
-                    <div class="linee_black"></div>
-                </div>
-
-                <div class="row ">
-                    <div class=" col-lg-12 ">
-                        <form class="col form  ">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Name</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                              </div>
-                              <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                              </div>
-                              <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                              </div> 
-                              <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                              </div>
-                              <button type="button" class="btn btn_color btn-success">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!----------- FINE FOOTER TOP ---------->
-
-        <!----------- INIZIO FOOTER BOTTOM ---------->
-
-        <!-- INIZIO FOOTER BOTTOM TOP -->
-        <section class="row foot_bottom_top justify-content-center ">
-            <div class="col-lg-8">
-                <div class="row ">
-                    <div class="col-12 col-md-4">
-                        <div class="col box_foot m-2">
-                            <h4>LOCATION</h4>
-                            <p>2215 John Daniel Drive Clark, MO 54243</p>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 ">
-                        <div class="col box_foot m-2">
-                            <h4>AROUND THE WEB</h4>
-                            <i class="fab m-2 fa-facebook-f"></i>
-                            <i class="fab m-2 fa-google-plus-g"></i>
-                            <i class="fab m-2 fa-twitter"></i>
-                            <i class="fab m-2 fa-linkedin-in"></i>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="col box_foot m-2">
-                            <h4>ABOUT FREELANCER</h4>
-                            <p>Freelance isa free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+                    <div class="row p-4 ">
+                        <div class=" col-lg-12 ">
+                            <form class="col form  ">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                    <input type="email" class="form-control " id="exampleFormControlInput1" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+                                </div> 
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                                <button type="button" class="btn btn_color btn-success">Send</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- FINE FOOTER BOTTOM TOP -->
+        </div>
+    </section>
+    <!----------- FINE FOOTER TOP ---------->
 
+    <!----------- INIZIO FOOTER BOTTOM ---------->
 
-
-
-
-        <!-- INIZIO FOOTER BOTTOM BOTTOM -->
-        <section class="row foot_bottom_bottom">
-            <div class="col-12  ">
-                <p class="text-center p-3" >Copiright &#x000A9; Your website 2019</p>
+    <!-- INIZIO FOOTER BOTTOM TOP -->
+    <section class="foot_bottom_top">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 p-5">
+                    <div class="row ">
+                        <div class="col-12 col-md-4">
+                            <div class="col box_foot m-2">
+                                <h4>LOCATION</h4>
+                                <p>2215 John Daniel Drive Clark, MO 54243</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 ">
+                            <div class="col box_foot m-2">
+                                <h4>AROUND THE WEB</h4>
+                                <i class="fab m-2 fa-facebook-f"></i>
+                                <i class="fab m-2 fa-google-plus-g"></i>
+                                <i class="fab m-2 fa-twitter"></i>
+                                <i class="fab m-2 fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <div class="col box_foot m-2">
+                                <h4>ABOUT FREELANCER</h4>
+                                <p>Freelance isa free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
-        <!-- FINE FOOTER BOTTOM BOTTOM -->
+        </div>
+    </section>
+    <!-- FINE FOOTER BOTTOM TOP -->
 
 
-        <!----------- FINE FOOTER BOTTOM ---------->
 
-        </footer>
-        <!----------- FINE FOOTER ---------->
-        
+
+
+    <!-- INIZIO FOOTER BOTTOM BOTTOM -->
+    <section class=" foot_bottom_bottom">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12  ">
+                    <p class="text-center p-3" >Copiright &#x000A9; Your website 2019</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FINE FOOTER BOTTOM BOTTOM -->
+
+
+    <!----------- FINE FOOTER BOTTOM ---------->
+
+    </footer>
+    <!----------- FINE FOOTER ---------->
+    
+
     
     
     
     
-    </div>
-    <!----------- FINE CONTENITORE GENERALE ---------->
     
+
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 </body>
 </html>
